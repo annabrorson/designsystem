@@ -1,0 +1,32 @@
+{{ partial "header.html" . }}
+
+<h1>{{ .Title}}</h1>
+<!--    <section> {{ .Content}}</section>-->
+<!--
+<div class="row center-xs">
+    <div class="col-xs-12">
+        <div class="box">
+   <div class="container_dokumentation">
+   <div class="row start-xs">
+    <div class="col-xs-12">
+        <div class="box">
+-->
+ <div class="row between-xs">
+    <div class="col-xs-2">
+        <div class="box">
+            <section> {{ .Content}}</section>
+        </div>
+    </div>
+    <div class="col-xs-2">
+        <div class="box">
+            <section> {{ .Content}}</section>
+        </div>
+    </div>
+    <div class="col-xs-2">
+        <div class="box">
+            <section> {{ .Content}}</section>
+        </div>
+    </div>
+</div>
+
+  {{ partial "footer.html" . }}

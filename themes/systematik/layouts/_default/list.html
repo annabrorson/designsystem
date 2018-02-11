@@ -1,0 +1,60 @@
+
+
+
+<!--dokuemnetation style -->
+
+
+{{ partial "header.html" . }}
+
+<div class="row center-xs">
+    <div class="col-xs-12 col-sm-11  col-md-11  col-lg-11">
+        <div class="box">
+
+                     <h1>Dokumentation</h1>
+            </div>
+    </div>
+</div>
+
+
+
+<div class="row center-xs">
+  <div class="col-xs-11 col-sm-11 col-md-11 col-lg-12">
+    <div class="container_dokumentation">
+      <div class="row start-xs">
+        <div class="col-xs-11 col-sm-11 col-md-11 col-lg-12">
+       {{ range .Pages }}
+       <h3>{{.Title}}</h3>
+       <div> {{.Content}}</div>
+
+{{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--
+
+   <div class="row center-xs">
+    <div class="col-xs-11 col-sm-11  col-md-11  col-lg-11">
+
+
+        <div class="box">
+              <div class="container_dokumentation">
+
+       {{ range .Pages }}
+<h3>{{.Title}}</h3>
+    <div> {{.Content}}</div>
+
+{{ end }}
+        </div>
+       </div>
+    </div>
+</div>
+
+
+-->
+
+
+{{ partial "footer.html" . }}

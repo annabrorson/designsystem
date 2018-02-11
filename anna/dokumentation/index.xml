@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dokumentation on My New Hugo Site</title>
+    <link>http://www.anna.kamillerye.dk/dokumentation/</link>
+    <description>Recent content in Dokumentation on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Feb 2018 09:10:58 +0100</lastBuildDate>
+    
+	<atom:link href="http://www.anna.kamillerye.dk/dokumentation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Buttons</title>
+      <link>http://www.anna.kamillerye.dk/dokumentation/buttons/</link>
+      <pubDate>Fri, 02 Feb 2018 10:01:32 +0100</pubDate>
+      
+      <guid>http://www.anna.kamillerye.dk/dokumentation/buttons/</guid>
+      <description>I dette framewrok kan du lave knapper ved at tilføje classen btns, som illustreret i følgende eksempel ved en knap.
+&amp;lt;a href=&amp;quot;&amp;quot; class=&amp;quot;btns&amp;quot;&amp;gt;Knaptekst&amp;lt;/a&amp;gt;  
+Knaptekst</description>
+    </item>
+    
+    <item>
+      <title>LightBox</title>
+      <link>http://www.anna.kamillerye.dk/dokumentation/lightbox/</link>
+      <pubDate>Thu, 01 Feb 2018 09:15:16 +0100</pubDate>
+      
+      <guid>http://www.anna.kamillerye.dk/dokumentation/lightbox/</guid>
+      <description>Man kan anvende denne funktion, LightBox, til billedmateriale.</description>
+    </item>
+    
+    <item>
+      <title>Typografi</title>
+      <link>http://www.anna.kamillerye.dk/dokumentation/typografi/</link>
+      <pubDate>Thu, 01 Feb 2018 09:15:16 +0100</pubDate>
+      
+      <guid>http://www.anna.kamillerye.dk/dokumentation/typografi/</guid>
+      <description> Der er udelukkende anvendt fonten Libre Baskerville, serif.
+Det typografiske hieraki ses herunder.
+Fonten Baskerville, H1 Fonten Baskerville, H2 Fonten Baskerville, H3 Fonten Baskerville, H4 Fonten Baskerville, Brødtekst </description>
+    </item>
+    
+    <item>
+      <title>Farver</title>
+      <link>http://www.anna.kamillerye.dk/dokumentation/farver/</link>
+      <pubDate>Thu, 01 Feb 2018 09:14:44 +0100</pubDate>
+      
+      <guid>http://www.anna.kamillerye.dk/dokumentation/farver/</guid>
+      <description>Anvendte farver: </description>
+    </item>
+    
+  </channel>
+</rss>
